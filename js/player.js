@@ -20,7 +20,7 @@
 
 		Mario.Entity.call(this, {
 			pos: pos,
-			sprite: new Mario.Sprite(spriteNFT, [80,32],[30,40],0),
+			sprite: new Mario.Sprite(spriteNFT, [80,32],[30,40],0), /*the parameters for the Mario.Sprite function*/
 			hitbox: [0,0,16,16]
 		});
 	};

@@ -43,5 +43,5 @@
 
     x += frame*this.size[0];
     ctx.drawImage(resources.get(this.img), /*start clipping x axis*/ x + (1/3),/*start clipping y axis*/y + (1/3), /*width clipped*/this.size[0] -2/3, /*height clipped*/this.size[1] - (2/3), /*x axis*/Math.round(posx - vX), /*y axis*/Math.round(posy - vY), /*width*/this.size[0],/*width stretch*/this.size[1]);
-  }
+  } /* This is where the sprite image is drawn and cropped/clipped*/
 })();
